@@ -1,0 +1,849 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lv20100141/ontologies/2023/4/ancsdg"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lv20100141/ontologies/2023/4/ancsdg">
+    <Prefix name="" IRI="http://www.semanticweb.org/lv20100141/ontologies/2023/4/ancsdg"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal xml:lang="en">This is an ontology for national cybersecurity strategy implementation.</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Audit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ControlRisk"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cyber"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DigitalForensicLab"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Governance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GovernmentStakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Human"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KeyPerfomanceIndicators"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Legislation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NCS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physical"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Policies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrivateStakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReportingStructures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ReviewControls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskAssesment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskIdentification"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RiskManagement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SemiGovernmentStakeholders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Stakeholder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standards"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Strategies"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TechnicalStructures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Training"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CSIRT/CERT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Capacity&amp;CapabilityDevelopment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Coordination&amp;MonitoringAssesmentMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Education&amp;Awareness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasRole"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToAdhere"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToCollaborate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToCommunicate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToComply"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToContribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToCooperate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToDefineStandards"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToDevelop"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToEducate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToEnforce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToEstablish"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToImplement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToMeasure"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToPromote"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToProtect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToRaiseAwareness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToReport"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToResearch"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToShareIntelligence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasToTrain"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#reportsTo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Academia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AirportsInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BankingInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChildOnlineSafetyAct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataProtectionAct"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EducationalInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ElectronicInformation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EndUser"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HealthInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#InformationCommunicationSystems"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Internet_Service_Providers"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Interpol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Law_Enforcement_Agencies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Military"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NGOs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Police"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PolitalInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PrivateCompanies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RailwayInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RecreationalInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SeaPortInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SewageInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TelecommunicationsInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TranspotationInfrastructure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WaterSupplySystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CSIRT/CERT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Power&amp;EnergyInfrastructure"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Audit"/>
+        <Class IRI="#Coordination&amp;MonitoringAssesmentMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ControlRisk"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <Class IRI="#NCS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cyber"/>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DigitalForensicLab"/>
+        <Class IRI="#TechnicalStructures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Governance"/>
+        <Class IRI="#NCS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GovernmentStakeholders"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Human"/>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KeyPerfomanceIndicators"/>
+        <Class IRI="#Coordination&amp;MonitoringAssesmentMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Legislation"/>
+        <Class IRI="#Governance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NCS"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physical"/>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Policies"/>
+        <Class IRI="#Governance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrivateStakeholders"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReportingStructures"/>
+        <Class IRI="#TechnicalStructures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ReviewControls"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskAssesment"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskIdentification"/>
+        <Class IRI="#RiskManagement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RiskManagement"/>
+        <Class IRI="#NCS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SemiGovernmentStakeholders"/>
+        <Class IRI="#Stakeholder"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Stakeholder"/>
+        <Class IRI="#NCS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Standards"/>
+        <Class IRI="#Governance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Strategies"/>
+        <Class IRI="#Governance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TechnicalStructures"/>
+        <Class IRI="#NCS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Training"/>
+        <Class IRI="#Capacity&amp;CapabilityDevelopment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CSIRT/CERT"/>
+        <Class IRI="#TechnicalStructures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Capacity&amp;CapabilityDevelopment"/>
+        <Class IRI="#NCS"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Coordination&amp;MonitoringAssesmentMechanism"/>
+        <Class IRI="#Governance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Education&amp;Awareness"/>
+        <Class IRI="#Capacity&amp;CapabilityDevelopment"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#SemiGovernmentStakeholders"/>
+        <NamedIndividual IRI="#Academia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#Academia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#AirportsInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#AirportsInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#BankingInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#BankingInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Legislation"/>
+        <NamedIndividual IRI="#ChildOnlineSafetyAct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Legislation"/>
+        <NamedIndividual IRI="#DataProtectionAct"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#EU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#EducationalInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#EducationalInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#ElectronicInformation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cyber"/>
+        <NamedIndividual IRI="#ElectronicInformation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#EndUser"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GovernmentStakeholders"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasToDevelop"/>
+            <Class IRI="#NCS"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasToRaiseAwareness"/>
+            <Class abbreviatedIRI="owl:Thing"/>
+        </ObjectSomeValuesFrom>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#HealthInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#HealthInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#InformationCommunicationSystems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cyber"/>
+        <NamedIndividual IRI="#InformationCommunicationSystems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#Internet_Service_Providers"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReportingStructures"/>
+        <NamedIndividual IRI="#Interpol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#Law_Enforcement_Agencies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GovernmentStakeholders"/>
+        <NamedIndividual IRI="#Military"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#Military"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#NGOs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Human"/>
+        <NamedIndividual IRI="#People"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#People"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GovernmentStakeholders"/>
+        <NamedIndividual IRI="#Police"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ReportingStructures"/>
+        <NamedIndividual IRI="#Police"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#PolitalInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#PolitalInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrivateStakeholders"/>
+        <NamedIndividual IRI="#PrivateCompanies"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#RailwayInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#RailwayInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#RecreationalInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#RecreationalInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#SeaPortInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#SeaPortInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#SewageInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#SewageInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SemiGovernmentStakeholders"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Stakeholder"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#TelecommunicationsInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#TelecommunicationsInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#TranspotationInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#TranspotationInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#WaterSupplySystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#WaterSupplySystem"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CSIRT/CERT"/>
+        <NamedIndividual IRI="#CSIRT/CERT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+        <NamedIndividual IRI="#Power&amp;EnergyInfrastructure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physical"/>
+        <NamedIndividual IRI="#Power&amp;EnergyInfrastructure"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToResearch"/>
+        <NamedIndividual IRI="#Academia"/>
+        <NamedIndividual IRI="#Academia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCooperate"/>
+        <NamedIndividual IRI="#EU"/>
+        <NamedIndividual IRI="#EU"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToComply"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#EndUser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCooperate"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#EndUser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToReport"/>
+        <NamedIndividual IRI="#EndUser"/>
+        <NamedIndividual IRI="#EndUser"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCollaborate"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCommunicate"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCooperate"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToEducate"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToImplement"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToRaiseAwareness"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToTrain"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+        <NamedIndividual IRI="#Government_Agencies"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCooperate"/>
+        <NamedIndividual IRI="#Military"/>
+        <NamedIndividual IRI="#Military"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCooperate"/>
+        <NamedIndividual IRI="#NGOs"/>
+        <NamedIndividual IRI="#NGOs"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToCooperate"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasToDefineStandards"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+        <NamedIndividual IRI="#Telecommunication_Regulators"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <Class IRI="#CriticalInfrastructureProtection"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <Class IRI="#Governance"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <Class IRI="#RiskManagement"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <Class IRI="#Stakeholder"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <Class IRI="#TechnicalStructures"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isAPolicyElement"/>
+        <Class IRI="#Capacity&amp;CapabilityDevelopment"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#reportsTo"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#reportsTo"/>
+            <Class IRI="#CSIRT/CERT"/>
+        </ObjectSomeValuesFrom>
+    </ObjectPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+        <Class IRI="#Strategies"/>
+    </DataPropertyDomain>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#AirportsInfrastructure</IRI>
+        <Literal>Airport Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#BankingInfrastructure</IRI>
+        <Literal>Banking Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CriticalInfrastructureProtection</IRI>
+        <IRI>#isAPolicyElement</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EU</IRI>
+        <Literal>EU</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EducationalInfrastructure</IRI>
+        <Literal>Educational Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ElectronicInformation</IRI>
+        <Literal>Electronic Information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#EndUser</IRI>
+        <Literal>End User</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Government_Agencies</IRI>
+        <Literal>Government Agencies</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#HealthInfrastructure</IRI>
+        <Literal>Health Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#InformationCommunicationSystems</IRI>
+        <Literal>Information Communication Systems</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Military</IRI>
+        <Literal>Military</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#NCS</IRI>
+        <Literal>National Cybersecurity Strategy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#NGOs</IRI>
+        <Literal>NGOs</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#People</IRI>
+        <Literal>People</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#PolitalInfrastructure</IRI>
+        <Literal>Political Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RailwayInfrastructure</IRI>
+        <Literal>Railway Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#RecreationalInfrastructure</IRI>
+        <Literal>Recreational Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SeaPortInfrastructure</IRI>
+        <Literal>Seaport Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#SewageInfrastructure</IRI>
+        <Literal>Sewage Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Telecommunication_Regulators</IRI>
+        <Literal>Telecommunication Regulators</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#TelecommunicationsInfrastructure</IRI>
+        <Literal>Telecommunication Infrastructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Capacity&amp;CapabilityDevelopment</IRI>
+        <IRI>#isAPolicyElement</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#Power&amp;EnergyInfrastructure</IRI>
+        <Literal>Power &amp; Energy Infrastructure</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
