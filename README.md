@@ -1,2 +1,2 @@
-# ANCSDG
-An ontology for National Cybersecurity Strategy(NCS) Implementation
+# NCSDG (National Cybersecurity Strategy Development Guide)
+An ontolology to aid National Cybersecurity Strategy(NCS) development
